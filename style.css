@@ -1,7 +1,77 @@
 a {
     text-decoration: none;
+    color: rgb(228, 156, 204);
 }
 
+a:visited {
+    color: oldlace;
+}
+
+a:hover {
+    color: lightblue;
+}
 body {
-    background: #0000FF;
+    background: #9ae78f;
+    color:red;
+}
+
+nav {
+    background: rgb(12, 199, 206);
+    box-shadow: 10px 5px 5px yellow;
+}
+
+aside {
+    background: #0b5cff;
+}
+
+nav, aside {
+    color: purple;
+}
+
+section {
+    border: 5px solid gray;   
+}
+
+h1 {
+    font-size: 3em;
+    text-shadow:10px 5px pink;
+}
+
+nav h3 {
+    color: rgba(171, 207, 73, 0.808);
+}
+
+aside h3 {
+    color: navajowhite;
+}
+
+p{
+    font-size: 2em;
+    text-align: justify;
+}
+
+span {
+    font-weight: bold;
+}
+
+main {
+    background: peru;
+    width: 90%;
+    margin: auto;
+}
+
+li {
+    list-style: none;
+}
+
+#sum {
+    color: khaki;
+}
+
+#intro {
+    text-shadow: 10px 5px 5px lawngreen;
+}
+
+#feat {
+    color: plum;
 }
